@@ -18,8 +18,8 @@ class Screen0 extends StatelessWidget {
                 //Navigate to Screen 1
               },
             ),
-            RaisedButton(
-              color: Colors.blue,
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(primary: Colors.blue),
               child: Text('Go To Screen 2'),
               onPressed: () {
                 //Navigate to Screen 2
